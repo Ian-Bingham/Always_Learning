@@ -2,6 +2,16 @@
 import ocean.*;  // import everything from the 'ocean' package we created
 import ocean.plants.Seaweed;
 
+
+/*
+ * Instance Variable Classifiers
+ *
+ * private --- accessible only within the class
+ * public --- accessible anywhere
+ * protected --- accessible in the same class, child classes, and same package
+ * no specifier --- accessible within same package
+ */
+
 public class Application {
 
     public static void main(String[] args){
@@ -17,6 +27,6 @@ public class Application {
 
 
         Fish fish = new Fish();
-        Seaweed seaweed = new Seaweed;
+        Seaweed seaweed = new Seaweed();
     }
 }
