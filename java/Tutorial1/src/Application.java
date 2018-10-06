@@ -85,6 +85,36 @@ public class Application {
             }
             System.out.println();
         }
+
+
+//        // extremely INEFFICIENT way to build a string
+//        // strings are immutable and cannot be change
+//        // this set of code is creating 4 different strings and reassigning 'stuff' to it
+//        String stuff = "";
+//        stuff += "My name is Carl.";
+//        stuff += " ";
+//        stuff += "I like hats. ";
+
+        // String Builder - More EFFICIENT!
+        // appends to a string rather than creating a new one and reassigning it
+        StringBuilder sb = new StringBuilder("");
+        sb.append("My name is");
+        sb.append(" ");
+        sb.append("Slim Shady.\n");
+        System.out.println(sb.toString());
+
+
+        // Formatting ints
+        for(int i = 8; i < 12; i++){
+            System.out.printf("%2d: formatting ints - right align\n", i);  // make %d 2 characters wide (right-align)
+        }
+        System.out.println();
+        for(int i = 8; i < 12; i++){
+            System.out.printf("%-2d: formatting ints - left align\n", i);  // make %d 2 characters wide (left-align)
+        }
+
+        // Formatting floats
+        System.out.printf("Formatting floats: %5.3f\n", 2.89127);  // make %f 5 characters wide; round to 3 decimal points
     }
 
 }
