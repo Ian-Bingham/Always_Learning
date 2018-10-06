@@ -69,6 +69,62 @@ class Machine {
 }
 
 
+class Thing {
+
+    public String name;  // instance variables belong to the OBJECT
+    public static String description;  // static variables belong to the CLASS
+
+    // Good uses for static variables:
+    // 1) creating constants for a class (e.q. Math.PI)
+    // 2) keeping track of an 'id' for your objects
+    public final static int LUCKY_NUMBER = 7;
+    public static int count = 0;   // keeps a count of the number of objects created
+    public static int id = 0;
+
+    public void Thing(){
+        id = count;
+        count++;
+    }
+
+    // Note: static methods only have access to static variables. NOT instance variables
+    public static void showInfo(){
+        System.out.println(description + ": static method");
+//        System.out.println(name); // won't work
+    }
+
+    // On the other hand, instance methods DO have access to static variables
+    public void showName(){
+        System.out.println(description + ": " + name);
+    }
+}
+
+class Frog{
+
+    private String name;
+    private int id;
+
+    public Frog(String name, int id){
+        this.name = name;
+        this.id = id;
+    }
+
+    // allows you to print out information about your object
+    // equivalent to __str__ method in python
+    public String toString(){
+
+//        return name + ": " + id; // INEFFICIENT
+
+//        // EFFICIENT
+//        StringBuilder sb = new StringBuilder();
+//        sb.append(name).append(": ").append(id);
+//        return sb.toString();
+
+        // EASY
+        return String.format("%s: %d", name, id);
+    }
+}
+
+
 public class Application {
 
     public static void main(String[] args){
@@ -96,5 +152,20 @@ public class Application {
         System.out.printf("Machine1: %s, %d\n", machine1.getName(), machine1.getCode());
         System.out.printf("Machine2: %s, %d\n", machine2.getName(), machine2.getCode());
         System.out.printf("Machine3: %s, %d\n", machine3.getName(), machine3.getCode());
+
+
+        Thing.description = "I am a thing";  // 'description' is a static variable so we call it on the class
+        Thing thing1 = new Thing();
+        Thing thing2 = new Thing();
+        thing1.name = "Greg";
+        thing2.name = "Sarah";
+        Thing.showInfo();  // 'showInfo' is a static method so we call it on the class
+        thing1.showName();
+        thing2.showName();
+        System.out.println(Thing.LUCKY_NUMBER);
+
+
+        Frog frog = new Frog("joey", 584);
+        System.out.println(frog);  // can print out object 'frog' because of the toString() method we defined in class Frog
     }
 }
