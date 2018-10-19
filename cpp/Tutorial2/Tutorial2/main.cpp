@@ -14,10 +14,20 @@ using namespace std;
 
 
 /* -------------------------- NOTES ---------------------------------
-    // const method: can't change values of variables
-    // const int* p1Val: pointer to an int that's constant (can't change the value of the int)
-    // int* const p2Val = &value: constant pointer to an int (can't change the thing its pointing to)
-    // const int* const p3Val: constant pointer to a constant int (can't change the value of the int AND can't change the thing its pointing to)
+    const method: can't change values of variables
+    const int* p1Val: pointer to an int that's constant (can't change the value of the int)
+    int* const p2Val = &value: constant pointer to an int (can't change the thing its pointing to)
+    const int* const p3Val: constant pointer to a constant int (can't change the value of the int AND can't change the thing its pointing to)
+
+    Cat cat1("Freddy");
+    Cat cat2 = cat1; // invokes the copy constructor (implicitly defined in C++)
+                        // override copy constructor: Cat(const Cat& other);
+ 
+ ALWAYS call 'delete' if creating an object with 'new':
+        Cat* cat3 = new Cat();
+        cat3->speak();
+        cat3->setName("joe");
+        delete cat3;
 */
 
 
@@ -102,9 +112,19 @@ int main(int argc, const char * argv[]) {
     
     /*
         char word[] = "pineapple";
-        reverseWord(word);
+        reverseWord(word, sizeof(word)/sizeof(word[0]));
         cout << word << endl;
      */
+     
+    
+    // ------------------------------
+    
+    /*
+        Cat* foo = createCat();
+        foo->speak();
+        delete foo; // MUST call 'delete' since 'new' was called in createCat()
+     */
+     
     
     return 0;
 }
@@ -162,10 +182,13 @@ void manipulate(double* pVal){
 }
 
 
-// reverse a word in place
-void reverseWord(char word[]){
+/*
+    when you pass an array as an argument you no longer know how big the array is.
+    therefore, it's best to also pass in the number of elements as a parameter
+ */
+void reverseWord(char word[], int numElems){
     char* pFirstChar = &word[0];
-    char* pLastChar = &word[strlen(word) - 1];
+    char* pLastChar = &word[numElems - 2]; // numElems - 1 gets the termination character '\0'
     while (pFirstChar < pLastChar){
         char tmp = *pFirstChar;
         *pFirstChar = *pLastChar;
@@ -174,4 +197,25 @@ void reverseWord(char word[]){
         pFirstChar++;
         pLastChar--;
     }
+}
+
+
+/*
+ if we didn't create 'carl' using 'new Cat;' (i.e. we just did 'Cat* carl;')
+ then the reference to 'carl' would be deleted when we exit the scope (exit the function).
+ Therefore, we create the object using 'new' so we can reference the object outside this function (i.e. in main())
+ However, we MUST call delete in main()
+ */
+Cat* createCat(){
+    Cat* carl = new Cat;
+    carl->setName("carl");
+    return carl;
+    
+    /*
+        // create an array of Cats using 'new' and free the memory with 'delete'
+        Cat* spam = new Cat[10];
+        spam[3].setName("spam");
+        spam[3].speak();
+        delete [] spam;
+     */
 }
