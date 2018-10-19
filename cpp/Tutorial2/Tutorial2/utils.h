@@ -11,5 +11,7 @@
 
 void typeApples();
 void multiplicationTable();
+void manipulate(double* pVal);
+void reverseWord(char word[]);
 
 #endif /* utils_h */

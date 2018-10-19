@@ -26,6 +26,7 @@ public:
     Cat(string name, int age): name(name), age(age) {};
     ~Cat();
     
+    void speak() const; // const method: can't change values of variables
     string toString();
     void setName(string name);
     void setAge(int age);

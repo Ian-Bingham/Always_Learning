@@ -36,6 +36,11 @@ Cat::~Cat(){
     cout << "Cat: " + name + " destroyed" << endl;
 }
 
+// const method: can't change values of variables
+void Cat::speak() const {
+    cout << "MEEEEOOOOWWW!!!" << endl;
+}
+
 string Cat::toString(){
     return "Cat name: " + name + ", Age: " + to_string(age);
 }
