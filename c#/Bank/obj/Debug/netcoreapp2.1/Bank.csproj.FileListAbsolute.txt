@@ -3,7 +3,6 @@
 /Users/ian/Desktop/Github/Always_Learning/c#/Bank/bin/Debug/netcoreapp2.1/Bank.runtimeconfig.dev.json
 /Users/ian/Desktop/Github/Always_Learning/c#/Bank/bin/Debug/netcoreapp2.1/Bank.dll
 /Users/ian/Desktop/Github/Always_Learning/c#/Bank/bin/Debug/netcoreapp2.1/Bank.pdb
-/Users/ian/Desktop/Github/Always_Learning/c#/Bank/obj/Debug/netcoreapp2.1/Bank.csprojAssemblyReference.cache
 /Users/ian/Desktop/Github/Always_Learning/c#/Bank/obj/Debug/netcoreapp2.1/Bank.csproj.CoreCompileInputs.cache
 /Users/ian/Desktop/Github/Always_Learning/c#/Bank/obj/Debug/netcoreapp2.1/Bank.AssemblyInfoInputs.cache
 /Users/ian/Desktop/Github/Always_Learning/c#/Bank/obj/Debug/netcoreapp2.1/Bank.AssemblyInfo.cs
