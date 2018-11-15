@@ -1,0 +1,11 @@
+/Users/ian/Desktop/Github/Always_Learning/c#/Hangman/bin/Debug/netcoreapp2.1/Hangman.deps.json
+/Users/ian/Desktop/Github/Always_Learning/c#/Hangman/bin/Debug/netcoreapp2.1/Hangman.runtimeconfig.json
+/Users/ian/Desktop/Github/Always_Learning/c#/Hangman/bin/Debug/netcoreapp2.1/Hangman.runtimeconfig.dev.json
+/Users/ian/Desktop/Github/Always_Learning/c#/Hangman/bin/Debug/netcoreapp2.1/Hangman.dll
+/Users/ian/Desktop/Github/Always_Learning/c#/Hangman/bin/Debug/netcoreapp2.1/Hangman.pdb
+/Users/ian/Desktop/Github/Always_Learning/c#/Hangman/obj/Debug/netcoreapp2.1/Hangman.csprojAssemblyReference.cache
+/Users/ian/Desktop/Github/Always_Learning/c#/Hangman/obj/Debug/netcoreapp2.1/Hangman.csproj.CoreCompileInputs.cache
+/Users/ian/Desktop/Github/Always_Learning/c#/Hangman/obj/Debug/netcoreapp2.1/Hangman.AssemblyInfoInputs.cache
+/Users/ian/Desktop/Github/Always_Learning/c#/Hangman/obj/Debug/netcoreapp2.1/Hangman.AssemblyInfo.cs
+/Users/ian/Desktop/Github/Always_Learning/c#/Hangman/obj/Debug/netcoreapp2.1/Hangman.dll
+/Users/ian/Desktop/Github/Always_Learning/c#/Hangman/obj/Debug/netcoreapp2.1/Hangman.pdb
