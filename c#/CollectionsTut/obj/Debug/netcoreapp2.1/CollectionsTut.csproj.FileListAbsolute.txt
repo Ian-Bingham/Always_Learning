@@ -1,0 +1,11 @@
+/Users/ian/Desktop/Github/Always_Learning/c#/CollectionsTut/bin/Debug/netcoreapp2.1/CollectionsTut.deps.json
+/Users/ian/Desktop/Github/Always_Learning/c#/CollectionsTut/bin/Debug/netcoreapp2.1/CollectionsTut.runtimeconfig.json
+/Users/ian/Desktop/Github/Always_Learning/c#/CollectionsTut/bin/Debug/netcoreapp2.1/CollectionsTut.runtimeconfig.dev.json
+/Users/ian/Desktop/Github/Always_Learning/c#/CollectionsTut/bin/Debug/netcoreapp2.1/CollectionsTut.dll
+/Users/ian/Desktop/Github/Always_Learning/c#/CollectionsTut/bin/Debug/netcoreapp2.1/CollectionsTut.pdb
+/Users/ian/Desktop/Github/Always_Learning/c#/CollectionsTut/obj/Debug/netcoreapp2.1/CollectionsTut.csprojAssemblyReference.cache
+/Users/ian/Desktop/Github/Always_Learning/c#/CollectionsTut/obj/Debug/netcoreapp2.1/CollectionsTut.csproj.CoreCompileInputs.cache
+/Users/ian/Desktop/Github/Always_Learning/c#/CollectionsTut/obj/Debug/netcoreapp2.1/CollectionsTut.AssemblyInfoInputs.cache
+/Users/ian/Desktop/Github/Always_Learning/c#/CollectionsTut/obj/Debug/netcoreapp2.1/CollectionsTut.AssemblyInfo.cs
+/Users/ian/Desktop/Github/Always_Learning/c#/CollectionsTut/obj/Debug/netcoreapp2.1/CollectionsTut.dll
+/Users/ian/Desktop/Github/Always_Learning/c#/CollectionsTut/obj/Debug/netcoreapp2.1/CollectionsTut.pdb

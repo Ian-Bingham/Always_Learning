@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{1F26FE3B-E091-4364-BBB2-14EF75E837E5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="26" Column="12" />
+      <File FileName="Animal.cs" Line="8" Column="31" />
+      <File FileName="Dog.cs" Line="22" Column="73" />
+      <File FileName="AnimalIDInfo.cs" Line="7" Column="56" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.InheritanceTut PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

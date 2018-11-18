@@ -1,0 +1,11 @@
+/Users/ian/Desktop/Github/Always_Learning/c#/InheritanceTut/bin/Debug/netcoreapp2.1/InheritanceTut.deps.json
+/Users/ian/Desktop/Github/Always_Learning/c#/InheritanceTut/bin/Debug/netcoreapp2.1/InheritanceTut.runtimeconfig.json
+/Users/ian/Desktop/Github/Always_Learning/c#/InheritanceTut/bin/Debug/netcoreapp2.1/InheritanceTut.runtimeconfig.dev.json
+/Users/ian/Desktop/Github/Always_Learning/c#/InheritanceTut/bin/Debug/netcoreapp2.1/InheritanceTut.dll
+/Users/ian/Desktop/Github/Always_Learning/c#/InheritanceTut/bin/Debug/netcoreapp2.1/InheritanceTut.pdb
+/Users/ian/Desktop/Github/Always_Learning/c#/InheritanceTut/obj/Debug/netcoreapp2.1/InheritanceTut.csprojAssemblyReference.cache
+/Users/ian/Desktop/Github/Always_Learning/c#/InheritanceTut/obj/Debug/netcoreapp2.1/InheritanceTut.csproj.CoreCompileInputs.cache
+/Users/ian/Desktop/Github/Always_Learning/c#/InheritanceTut/obj/Debug/netcoreapp2.1/InheritanceTut.AssemblyInfoInputs.cache
+/Users/ian/Desktop/Github/Always_Learning/c#/InheritanceTut/obj/Debug/netcoreapp2.1/InheritanceTut.AssemblyInfo.cs
+/Users/ian/Desktop/Github/Always_Learning/c#/InheritanceTut/obj/Debug/netcoreapp2.1/InheritanceTut.dll
+/Users/ian/Desktop/Github/Always_Learning/c#/InheritanceTut/obj/Debug/netcoreapp2.1/InheritanceTut.pdb
