@@ -1,0 +1,10 @@
+/Users/ian/Desktop/Github/Always_Learning/c#/WarriorWars/bin/Debug/netcoreapp2.1/WarriorWars.deps.json
+/Users/ian/Desktop/Github/Always_Learning/c#/WarriorWars/bin/Debug/netcoreapp2.1/WarriorWars.runtimeconfig.json
+/Users/ian/Desktop/Github/Always_Learning/c#/WarriorWars/bin/Debug/netcoreapp2.1/WarriorWars.runtimeconfig.dev.json
+/Users/ian/Desktop/Github/Always_Learning/c#/WarriorWars/bin/Debug/netcoreapp2.1/WarriorWars.dll
+/Users/ian/Desktop/Github/Always_Learning/c#/WarriorWars/bin/Debug/netcoreapp2.1/WarriorWars.pdb
+/Users/ian/Desktop/Github/Always_Learning/c#/WarriorWars/obj/Debug/netcoreapp2.1/WarriorWars.csproj.CoreCompileInputs.cache
+/Users/ian/Desktop/Github/Always_Learning/c#/WarriorWars/obj/Debug/netcoreapp2.1/WarriorWars.AssemblyInfoInputs.cache
+/Users/ian/Desktop/Github/Always_Learning/c#/WarriorWars/obj/Debug/netcoreapp2.1/WarriorWars.AssemblyInfo.cs
+/Users/ian/Desktop/Github/Always_Learning/c#/WarriorWars/obj/Debug/netcoreapp2.1/WarriorWars.dll
+/Users/ian/Desktop/Github/Always_Learning/c#/WarriorWars/obj/Debug/netcoreapp2.1/WarriorWars.pdb
