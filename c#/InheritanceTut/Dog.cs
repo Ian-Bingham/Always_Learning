@@ -7,11 +7,11 @@ namespace InheritanceTut
     public class Dog : Animal
     {
         // provide a default value
-        public string Sound2 { get; set; } = "Grrrr";
+        public string Sound2 { get; set; } = "No sound2";
 
         // use keyword 'base' to call the super class, Animal, constructor
         // also initialize the Sound2 property
-        public Dog(string name = "No name", 
+        public Dog(string name, 
                    string sound = "No sound", 
                    string sound2 = "No sound 2")
             :base(name, sound)

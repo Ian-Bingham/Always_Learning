@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace InheritanceTut
 {
@@ -6,42 +7,55 @@ namespace InheritanceTut
     {
         static void Main(string[] args)
         {
-            Animal whiskers = new Animal()
-            {
-                Name = "Whiskers",
-                Sound = "Meow"
-            };
-
-            Dog grover = new Dog()
-            {
-                Name = "Grover",
-                Sound = "Woof",
-                Sound2 = "Grrr"
-            };
-
-            whiskers.MakeSound();
-            grover.MakeSound();
+            Animal tiger = new Animal("Tiger", "Rawr");
+            Dog dog = new Dog("Grover", "Woof", "Grrr");
+            Cat cat = new Cat("Cat", "Meow");
 
             // Polymorphism
-            // Dog IS A Animal
-            Animal buddy = new Dog()
+            // Dog IS A Animal (b/c of inheritance)
+            // Cat IS A Animal (b/c of inheritance)
+            Animal a1 = tiger;
+            Animal a2 = dog;
+            Animal a3 = cat;
+
+            // we can include Dog and Cat objects in our list
+            // b/c they are both considered an Animal (polymorphism)
+            List<Animal> animalList = new List<Animal>()
             {
-                Name = "Buddy",
-                Sound = "Pant",
-                Sound2 = "Yip"
+                a1, a2, a3
             };
 
-            // calls the Dog MakeSound method instead of the one in Animal
-            // b/c we used the 'virtual' and 'override' keyword in
-            // the Animal method and Dog method respectively
-            buddy.MakeSound();
+            // loop through our list of animals and check
+            // what type of object it is
+            foreach(Animal a in animalList)
+            {
+                // if the item in our list is of type Dog
+                // create a tmp Dog object so we can call Dog MakeSound()
+                if(a is Dog)
+                {
+                    Dog tmp = a as Dog;
+                    tmp.MakeSound();
+                }
+
+                // if the item in our list is of type Cat
+                // create a tmp Cat object so we can call Cat MakeSound()
+                else if (a is Cat)
+                {
+                    Cat tmp = a as Cat;
+                    tmp.MakeSound();
+                }
+                else
+                {
+                    a.MakeSound();
+                }
+            }
 
             // Animal HAS A AnimalIDInfo
             // Dog HAS A AnimalIDInfo
-            whiskers.SetAnimalIDInfo(12345, "Sally Smith");
-            grover.SetAnimalIDInfo(67899, "Paul Brown");
-            whiskers.GetAnimalIDInfo();
-            grover.GetAnimalIDInfo();
+            tiger.SetAnimalIDInfo(12345, "Sally Smith");
+            dog.SetAnimalIDInfo(67899, "Paul Brown");
+            tiger.GetAnimalIDInfo();
+            dog.GetAnimalIDInfo();
         }
     }
 }
