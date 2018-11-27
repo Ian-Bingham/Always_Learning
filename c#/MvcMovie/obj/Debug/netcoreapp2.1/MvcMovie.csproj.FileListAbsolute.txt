@@ -30,3 +30,4 @@
 /Users/ian/Desktop/Github/Always_Learning/c#/MvcMovie/obj/Debug/netcoreapp2.1/MvcMovie.dll
 /Users/ian/Desktop/Github/Always_Learning/c#/MvcMovie/obj/Debug/netcoreapp2.1/MvcMovie.pdb
 /Users/ian/Desktop/Github/Always_Learning/c#/MvcMovie/obj/Debug/netcoreapp2.1/MvcMovie.csproj.CopyComplete
+/Users/ian/Desktop/Github/Always_Learning/c#/MvcMovie/obj/Debug/netcoreapp2.1/Razor/Views/HelloWorld/Welcome.g.cshtml.cs

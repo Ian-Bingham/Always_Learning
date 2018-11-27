@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{ED91C296-C6EB-4FCE-8646-6F56EDBFABEB}|Default">
   <MonoDevelop.Ide.ItemProperties.MvcMovie PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/HelloWorld/Welcome.cshtml">
     <Files>
-      <File FileName="Controllers/HelloWorldController.cs" Line="21" Column="37" />
-      <File FileName="Startup.cs" Line="4" Column="1" />
-      <File FileName=".gitignore" Line="338" Column="15" />
+      <File FileName="Controllers/HelloWorldController.cs" Line="11" Column="2" />
+      <File FileName="Views/HelloWorld/Index.cshtml" Line="7" Column="37" />
+      <File FileName="Views/HelloWorld/Welcome.cshtml" Line="11" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -12,16 +12,22 @@ namespace MvcMovie.Controllers
     public class HelloWorldController : Controller
     {
         // GET: /HelloWorld/
-        public string Index()
+        public IActionResult Index()
         {
-            return "This is my default action...";
+            // renders the HTML in Views -> HelloWorld -> Index.cshtml
+            return View();
         }
 
 
         // GET: /HelloWorld/Welcome/
-        public string Welcome(string name = "joe", int numTimes = 1)
+        public IActionResult Welcome(string name = "joe", int numTimes = 1)
         {
-            return HtmlEncoder.Default.Encode($"Hello {name}, NumTimes is {numTimes}");
+            // ViewData is a dictionary that is passed to our view template
+            ViewData["Message"] = "Hello " + name;
+            ViewData["NumTimes"] = numTimes;
+
+            // renders the HTML in Views -> HelloWorld -> Welcome.cshtml
+            return View();
         }
     }
 }
