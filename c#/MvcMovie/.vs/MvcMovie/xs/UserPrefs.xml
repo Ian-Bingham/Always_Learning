@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{ED91C296-C6EB-4FCE-8646-6F56EDBFABEB}|Default">
   <MonoDevelop.Ide.ItemProperties.MvcMovie PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Movies/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
       <File FileName="Models/MvcMovieContext.cs" Line="14" Column="1" />
       <File FileName="Controllers/MoviesController.cs" Line="1" Column="1" />
       <File FileName="Views/Movies/Create.cshtml" Line="1" Column="1" />
       <File FileName="Views/Movies/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="42" Column="2" />
+      <File FileName="Models/SeedData.cs" Line="58" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
