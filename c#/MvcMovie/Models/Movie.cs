@@ -14,5 +14,6 @@ namespace MvcMovie.Models
 
         public string Genre { get; set;  }
         public Decimal Price { get; set; }
+        public string Rating { get; set; }
     }
 }
